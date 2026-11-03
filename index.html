@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masala Craft - Authentic Indian Spices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-meta-bar">
+    <span>Wishlist | Contact</span>
+  </div>
+
+  <header>
+    <a href="#" class="brand-logo">
+      <svg viewBox="0 0 24 24"><path d="M19 6h-2c0-2.21-1.79-4-4-4S9 3.79 9 6H7c-1.1 0-2 .9-2 2v11c0 1.66 1.34 3 3 3h8c1.66 0 3-1.34 3-3V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm6 15c0 .55-.45 1-1 1H8c-.55 0-1-.45-1-1V8h12v11z"/></svg>
+      <div class="brand-title">MASALA<br>CRAFT</div>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="#shop">Shop ▾</a></li>
+        <li><a href="#heritage">Our Heritage</a></li>
+        <li><a href="#bestsellers">Best Sellers</a></li>
+        <li><a href="#bundles">Spice Bundles</a></li>
+        <li><a href="#blog">Recipe Blog</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="search-box">
+        <input type="text" placeholder="Search spices...">
+      </div>
+      <button class="icon-btn">♡</button>
+      <a href="#cart" class="cart-btn">🛒 <span id="cart-count">0</span></a>
+    </div>
+  </header>
+
+  <main class="hero-container">
+    <div class="hero-content">
+      <h1>BRING THE<br>AUTHENTIC TASTE<br>OF INDIA TO<br>YOUR KITCHEN.</h1>
+      <p>100% Pure, Stone-Ground & Handcrafted Spice Blends</p>
+      <div class="cta-group">
+        <button class="btn-primary" onclick="alert('Welcome to Masala Craft! Exploring Shop...')">Shop Now</button>
+        <button class="btn-secondary" onclick="alert('Viewing Spice Blends!')">Explore Blends</button>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1000&q=80" alt="Indian Spices Platter">
+      </div>
+    </div>
+  </main>
+
+  <section class="categories-section">
+    <div class="categories-title">
+      <span>Browse Categories</span>
+    </div>
+
+    <div class="categories-grid">
+      <div class="cat-card" onclick="selectCategory('Whole Spices')">
+        <div class="cat-avatar-wrap">
+          <img src="https://images.unsplash.com/photo-1509358271058-acd22cc93898?auto=format&fit=crop&w=400&q=80" alt="Whole Spices">
+        </div>
+        <span class="cat-name">Whole Spices</span>
+      </div>
+
+      <div class="cat-card" onclick="selectCategory('Masala Blends')">
+        <div class="cat-avatar-wrap">
+          <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=400&q=80" alt="Masala Blends">
+        </div>
+        <span class="cat-name">Masala Blends</span>
+      </div>
+
+      <div class="cat-card" onclick="selectCategory('Seasonings')">
+        <div class="cat-avatar-wrap">
+          <img src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=400&q=80" alt="Seasonings">
+        </div>
+        <span class="cat-name">Seasonings</span>
+      </div>
+
+      <div class="cat-card" onclick="selectCategory('Gifting & Combo Packs')">
+        <div class="cat-avatar-wrap">
+          <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&q=80" alt="Gifting & Combo Packs">
+        </div>
+        <span class="cat-name">Gifting & Combo Packs</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
